@@ -1,0 +1,77 @@
+:root {
+  /* Color */
+  --clr-dark: #1f2937;
+  --clr-light-grey: #f9faf8;
+  --clr-grey: #e5e7eb;
+  --clr-blue: #3882f6;
+
+  /* Typography */
+  --fs-2: 24px;
+  --fs-3: 36px;
+  --fs-1: 18px;
+  --fs-4: 48px;
+  --fw-9: 900;
+}
+
+/* Reset */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+a,
+button {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Utility classes */
+
+.bg-blue {
+  background-color: var(--clr-blue);
+}
+.bg-dark {
+  background-color: var(--clr-dark);
+}
+.bg-grey {
+  background-color: var(--clr-grey);
+}
+.text-light-grey {
+  color: var(--clr-light-grey);
+}
+.text-dark {
+  color: var(--clr-dark);
+}
+.text-grey {
+  color: var(--clr-grey);
+}
+.fs-48 {
+  font-size: var(--fs-4);
+}
+.fs-36 {
+  font-size: var(--fs-3);
+}
+.fs-24 {
+  font-size: var(--fs-2);
+}
+.fs-18 {
+  font-size: var(--fs-1);
+}
+.fw-900 {
+  font-weight: var(--fw-9);
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
