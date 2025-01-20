@@ -101,7 +101,7 @@ ul {
 }
 
 .info {
-  height: 500px;
+  margin-bottom: 96px;
 }
 
 .info-title {
@@ -133,4 +133,19 @@ ul {
 .card-text {
   margin-top: auto;
   text-align: center;
+}
+
+.quote {
+  min-height: 500px;
+  padding-inline: calc((100vw - 864px) / 2);
+  justify-content: center;
+  place-items: center;
+}
+
+.quote-text {
+  line-height: 1.5;
+}
+
+.quote-author {
+  margin-left: auto;
 }
