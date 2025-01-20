@@ -137,15 +137,40 @@ ul {
 
 .quote {
   min-height: 500px;
-  padding-inline: calc((100vw - 864px) / 2);
   justify-content: center;
-  place-items: center;
+  align-items: center;
+}
+
+.quote-container{
+    max-width: 888px;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 24px;
 }
 
 .quote-text {
   line-height: 1.5;
+
 }
 
 .quote-author {
+  margin-left: auto;
+
+}
+
+.sign-up {
+  padding: 48px 96px;
+  margin: 96px auto;
+  max-width: 1056px;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  flex-shrink: 1;
+  gap: 24px;
+}
+
+.sign-up .sign-up-btn {
+  border: 3px solid var(--clr-grey);
   margin-left: auto;
 }
