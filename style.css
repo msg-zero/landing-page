@@ -107,13 +107,14 @@ ul {
 }
 
 .header-container {
-  width: 1056px;
+  max-width: 1056px;
 }
 
 .header-bar {
   padding: 18px 0;
   justify-content: center;
   align-items: center;
+
 }
 
 .nav-bar {
@@ -134,6 +135,30 @@ ul {
 .link > a:hover ,
 .link > a:focus{
     border-bottom:3px solid  var(--clr-grey);
+}
+
+.header-content{
+    margin: 96px 0;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+.hero-container{
+    width: 500px;
+    height: 210px;
+}
+
+.hero-text{
+    margin-bottom: 18px;
+}
+
+.header-img{
+    margin-left: auto;
+    width: 500px;
+    height: 210px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .info {
